@@ -1,5 +1,5 @@
 # .dotfiles
 ## My .dotfiles setup
-⋅⋅* .zshrc
+* .zshrc
 ⋅⋅⋅Add | alias vim='nvim'
 ⋅⋅⋅Add | export EDITOR='nvim' 
