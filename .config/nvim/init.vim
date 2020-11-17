@@ -38,7 +38,7 @@ Plug 'preservim/nerdcommenter'          " Comment code
 Plug 'vim-airline/vim-airline'          " Theme Status
 Plug 'vim-airline/vim-airline-themes'   " Themes Status Custom
 Plug 'sirver/ultisnips'                 " Customize Snippet
-Plug 'tpope/vim-fugitive'
+Plug 'tpope/vim-fugitive'               " Show git status
 
 call plug#end()
 
