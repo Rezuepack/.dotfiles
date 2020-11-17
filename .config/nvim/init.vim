@@ -38,19 +38,26 @@ Plug 'preservim/nerdcommenter'          " Comment code
 Plug 'vim-airline/vim-airline'          " Theme Status
 Plug 'vim-airline/vim-airline-themes'   " Themes Status Custom
 Plug 'sirver/ultisnips'                 " Customize Snippet
+Plug 'Xuyuanp/nerdtree-git-plugin'      " Show status Git Version Control
 
 call plug#end()
 
 " Setting theme for coding
 syntax on
 colorscheme onedark
+set t_Co=256
 
 " Setting theme for airline plugin
 let g:airline_theme = 'onedark'
+let g:onedark_termcolors=256
 
 " Setting Tabs Airline
-let g:airline#extensions#tabline#enabled=1
-let g:airline#extensions#tabline#fnamemode=':t'
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+let g:airline_powerline_fonts = 1
+
+" let g:airline#extensions#tabline#fnamemode=':t'
 
 " Setting Shortcuts keyboard switch to the tab
 nmap <leader>1 :bp<CR>
@@ -67,7 +74,13 @@ vmap <C-/> <Plug>NERDCommenterToggle<CR>
 " Setting NERDTree
 let NERDTreeQuitOnOpen=1
 let g:NERDTreeMinimalUI=1
+let g:NERDTreeGitStatusWithFlags = 1
 nmap <F2> :NERDTreeToggle<CR>
+
+map <C-h> <C-w>h
+map <C-j> <C-w>j
+map <C-k> <C-w>k
+map <C-l> <C-w>l
 
 " Setting Ultisnips
 " If you want to enable just remove double quote
