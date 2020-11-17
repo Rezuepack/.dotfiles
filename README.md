@@ -1,4 +1,4 @@
 # .dotfiles
 ## My .dotfiles setup
 * .zshrc
-Some text to show that the reference links can follow later.
+⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
