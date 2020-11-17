@@ -1,8 +1,4 @@
 # .dotfiles
 ## My .dotfiles setup
 * .zshrc
-⋅⋅⋅Add | alias vim='nvim'
-⋅⋅⋅Add | export EDITOR='nvim' 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
