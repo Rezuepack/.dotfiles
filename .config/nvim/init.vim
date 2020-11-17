@@ -38,14 +38,13 @@ Plug 'preservim/nerdcommenter'          " Comment code
 Plug 'vim-airline/vim-airline'          " Theme Status
 Plug 'vim-airline/vim-airline-themes'   " Themes Status Custom
 Plug 'sirver/ultisnips'                 " Customize Snippet
-Plug 'Xuyuanp/nerdtree-git-plugin'      " Show status Git Version Control
+Plug 'tpope/vim-fugitive'
 
 call plug#end()
 
 " Setting theme for coding
 syntax on
 colorscheme onedark
-set t_Co=256
 
 " Setting theme for airline plugin
 let g:airline_theme = 'onedark'
@@ -74,7 +73,6 @@ vmap <C-/> <Plug>NERDCommenterToggle<CR>
 " Setting NERDTree
 let NERDTreeQuitOnOpen=1
 let g:NERDTreeMinimalUI=1
-let g:NERDTreeGitStatusWithFlags = 1
 nmap <F2> :NERDTreeToggle<CR>
 
 map <C-h> <C-w>h
